@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Source_Code_Pro } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css"; // Nếu ghi như này thì dù có dời file đi đâu thì  đường link vẫn sẽ như vậy.
 
 const inter = Inter({
   variable: "--font-inter",
